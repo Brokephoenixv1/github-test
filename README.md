@@ -8,3 +8,4 @@
 🌿 git branch             # Branches anzeigen
 🌱 git branch <name>      # Neuen Branch erstellen
 🔀 git merge              # Branches zusammenführen
+#test
