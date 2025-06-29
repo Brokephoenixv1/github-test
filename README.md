@@ -34,3 +34,12 @@ git fetch         # Neueste Daten abrufen, aber noch nicht mergen
 git push          # Änderungen zu GitHub senden
 git pull          # Änderungen von GitHub holen + mergen
 git remote -v     # Zeigt die verbundenen GitHub-Repos an
+
+
+git switch -c feature-login    # Neuer Branch: 'feature-login' + direkt hineinspringen
+# Datei ändern...
+git add README.md              # Änderung vorbereiten
+git commit -m "Login-Feature begonnen"  # Speichern im Branch
+git switch main                # Zurück zur Hauptversion
+git merge feature-login        # Änderungen von feature-login übernehmen
+git branch -d feature-login    # Branch löschen (aufgeräumt)
